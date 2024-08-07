@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rowspan nad Colspan Example</title>
+    <style>
+      table {
+        width: 50%,
+        
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 18px 12px 8px 0;
+        text-align: center;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">Name</th>
+          <th rowspan="2">Father. N</th>
+          <th colspan="2" style="color: red">Contacts</th>
+        </tr>
+        <tr>
+          <th>ph:</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="3">Rowspan Cell</td>
+          <td>Ahmad</td>
+        </tr>
+        <tr>
+          <td>Row 2, Cell 2</td>
+          <td>Ahmad</td>
+
+          <td>Row 2, Cell 2</td>
+          <td>Row 2, Cell 3</td>
+        </tr>
+        <tr>
+          <td>Row 3, Cell 1</td>
+          <td>Ahmad</td>
+
+          <td>Row 3, Cell 2</td>
+          <td>Row 3, Cell 3</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
